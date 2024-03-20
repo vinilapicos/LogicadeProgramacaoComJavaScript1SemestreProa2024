@@ -1,8 +1,8 @@
 Algoritmo "Exercicio de porcentagem"
-// Disciplina   : [Lógica de Programação com JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o com JavaScript]
 // Professor   : Jailson Costa
-// Descrição   : Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
-// brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+// DescriÃ§Ã£o   : Escreva um algoritmo para ler o nÃºmero total de eleitores de um municÃ­pio, o nÃºmero de votos
+// brancos, nulos e vÃ¡lidos. Calcular e escrever o percentual que cada um representa em relaÃ§Ã£o ao total
 // de eleitores.
 // Autor(a)    : Vinicius Correa Carvalho
 // Data atual  : 18/03/2024
@@ -15,16 +15,16 @@ pbrancos:real
 pnulos:real
 pvalidos:real
 Inicio
-Escreval("Qual o número total de eleitores do municipio?")
+Escreval("Qual o nÃºmero total de eleitores do municipio?")
 Leia(total)
-Escreval("Qual o número total de votos brancos?")
+Escreval("Qual o nÃºmero total de votos brancos?")
 Leia(brancos)
-Escreval("Qual o número total de votos nulos?")
+Escreval("Qual o nÃºmero total de votos nulos?")
 Leia(nulos)
-Escreval("Qual o número total de votos validos?")
+Escreval("Qual o nÃºmero total de votos validos?")
 Leia(validos)
 pbrancos<-(brancos*100)/total
 pnulos<-(nulos*100)/total
 pvalidos<-(validos*100)/total
-Escreval("O percentual de cada um representa em relação ao total é:",pbrancos,"% brancos",pnulos,"% nulos e",pvalidos,"% validos.")
+Escreval("O percentual de cada um representa em relaÃ§Ã£o ao total Ã©:",pbrancos,"% brancos",pnulos,"% nulos e",pvalidos,"% validos.")
 Fimalgoritmo
