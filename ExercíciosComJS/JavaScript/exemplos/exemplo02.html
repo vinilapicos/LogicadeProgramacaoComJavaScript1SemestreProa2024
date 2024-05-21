@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando o conteúdo HTML com JS</title>
+</head>
+<body>
+    <h2>Alterando o conteúdo HTML com JS</h2>
+    <br>
+    <p>O conteúdo abaixo irá mudar caso você aperte o botão!</p>
+    <p id="vini">Se você apertar o botão, eu irei mudar!</p>
+    <p>O conteúdo acima irá mudar caso você aperte o botão!</p>
+    <button type="button" onclick="document.getElementById('vini').innerHTML='Olá JavaScript!'">Mude o conteúdo</button>
+    <button type="button" onclick="document.getElementById('vini').innerHTML='Também é possível atribuir outro botão ao mesmo ID'">Mude novamente.</button>
+    
+</body>
+</html>
